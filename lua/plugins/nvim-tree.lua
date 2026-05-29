@@ -5,11 +5,6 @@ return {
       "nvim-tree/nvim-web-devicons",
     },
     config = function()
-      -- netrw deaktivieren
-      vim.g.loaded_netrw = 1
-      vim.g.loaded_netrwPlugin = 1
-
-      -- true color aktivieren
       vim.opt.termguicolors = true
 
       require("nvim-tree").setup({
